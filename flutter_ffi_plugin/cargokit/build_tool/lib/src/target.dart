@@ -27,12 +27,12 @@ class Target {
       android: 'arm64-v8a',
       androidMinSdkVersion: 21,
     ),
-    // Target(
-    //   rust: 'i686-linux-android',
-    //   flutter: 'android-x86',
-    //   android: 'x86',
-    //   androidMinSdkVersion: 16,
-    // ),
+    Target(
+      rust: 'i686-linux-android',
+      flutter: 'android-x86',
+      android: 'x86',
+      androidMinSdkVersion: 16,
+    ),
     Target(
       rust: 'x86_64-linux-android',
       flutter: 'android-x64',
